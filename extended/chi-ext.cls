@@ -6,6 +6,7 @@
 % Filename: chi-ext.cls
 %
 % CHANGELOG:
+%   2011-03-01   Ben Hanrahan       Added General Terms section.
 %   2011-03-01   Manas Tungare      Added notes about GitHub repo.
 %   2010-08-09   Manas Tungare      Updated copyright info for CHI 2011
 %   2009-12-04   Stephen Voida      Updated copyright info for CHI 2010
@@ -45,6 +46,7 @@
 \newcommand*{\copyrightinfo}[1]{\gdef\@copyrightinfo{#1}}
 \newcommand*{\keywords}[1]{\gdef\@keywords{#1}}
 \newcommand*{\acmclassification}[1]{\gdef\@acmclassification{#1}}
+\newcommand*{\generalterms}[1]{\gdef\@generalterms{#1}}
 
 % \makeatletter
 \renewenvironment{table}
@@ -82,7 +84,7 @@
   }}
 
 \renewcommand\section{\@startsection {section}{1}{\z@}%
-                                   {-3.5ex \@plus -0.1ex \@minus -.2ex}%
+                                   {-3.9ex \@plus -0.1ex \@minus -.2ex}%
                                    {0.2ex
                                    % \@plus.01ex
                                    }%
@@ -153,7 +155,7 @@
 \setlength{\topsep}{0pt}
 
 \setlength{\parskip}{0pt}
-% \addtolength{\parskip}{0.25\baselineskip}
+\addtolength{\parskip}{0.25\baselineskip}
 
 \pagestyle{empty}  % No page numbers.
 
