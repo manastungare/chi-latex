@@ -1,27 +1,31 @@
 % CHI Extended Abstracts template.
 % Tested with XeTeX on Mac OS X (Get it from http://tug.org/mactex)
 % The latest version is available at <http://manas.tungare.name/software/latex/>
-% 
+% Contributions welcome! <https://github.com/manastungare/chi-latex>
+%
 % Filename: chi-ext.cls
-% 
+%
 % CHANGELOG:
+%   2011-03-01   Manas Tungare      Added notes about GitHub repo.
 %   2010-08-09   Manas Tungare      Updated copyright info for CHI 2011
 %   2009-12-04   Stephen Voida      Updated copyright info for CHI 2010
-%   2008-11-25   Manas Tungare      Initial create.
 %   2009-11-17   Manas Tungare      Refactored the title & author sections.
-% 
+%   2008-11-25   Manas Tungare      Initial create.
+%
 % LICENSE:
 %   Public domain: You are free to do whatever you want with this template.
 %   If you improve this in any way, please drop me a note <manas@tungare.name>,
 %   so I can share the updates with everyone.
-%   
+%
 %   PLEASE RECONSIDER BEFORE FORKING THIS TEMPLATE; there are already
 %   several versions of the chiproceedings template for no good reason.
 %   DO NOT REDISTRIBUTE THIS FILE UNDER A DIFFERENT FILENAME unless you
 %   have a very good reason to change its name.
+%   SUBMIT YOUR CHANGES to the GitHub repository above, and I'll be happy
+%   to include them in the next version.
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{chi-ext}[2008/11/25, Manas Tungare, manas@tungare.name]
+\ProvidesClass{chi-ext}[2011/03/01, Manas Tungare, manas@tungare.name]
 
 \typeout{CHI Extended Abstracts template, by Manas Tungare.}
 \typeout{Available from http://manas.tungare.name/software/latex/}
@@ -79,7 +83,7 @@
 
 \renewcommand\section{\@startsection {section}{1}{\z@}%
                                    {-3.5ex \@plus -0.1ex \@minus -.2ex}%
-                                   {0.2ex 
+                                   {0.2ex
                                    % \@plus.01ex
                                    }%
                                    {\sffamily\large\bfseries}}
@@ -161,7 +165,7 @@
 
 \renewcommand{\maketitle}{%
   \begin{tabular}{p{0.15\textwidth}p{0.85\textwidth}}
-    & 
+    &
     {
       \rule{0.8\textwidth}{3pt}
       \setlength{\parskip}{3pt}
