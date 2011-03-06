@@ -6,6 +6,7 @@
 % Filename: chi-ext.cls
 %
 % CHANGELOG:
+%   2011-03-06   Ben Hanrahan       Flush-left alignment for all text.
 %   2011-03-01   Ben Hanrahan       Added General Terms section.
 %   2011-03-01   Manas Tungare      Added notes about GitHub repo.
 %   2010-08-09   Manas Tungare      Updated copyright info for CHI 2011
@@ -84,17 +85,17 @@
   }}
 
 \renewcommand\section{\@startsection {section}{1}{\z@}%
-                                   {-3.9ex \@plus -0.1ex \@minus -.2ex}%
+                                   {-3.5ex \@plus -0.1ex \@minus -.2ex \raggedright}%
                                    {0.2ex
                                    % \@plus.01ex
                                    }%
                                    {\sffamily\large\bfseries}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
-                                   {-3.25ex\@plus -0.1ex \@minus -.2ex}%
+                                   {-3.25ex\@plus -0.1ex \@minus -.2ex \raggedright}%
                                    {0.2ex \@plus .01ex}%
                                    {\sffamily\normalsize\bfseries}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
-                                   {-3.25ex\@plus -0.1ex \@minus -.2ex}%
+                                   {-3.25ex\@plus -0.1ex \@minus -.2ex \raggedright}%
                                    {0.2ex \@plus .01ex}%
                                    {\sffamily\MakeUppercase\small\bfseries}}
 
